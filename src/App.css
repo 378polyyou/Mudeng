@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffcaca; /* คุณสามารถเปลี่ยนสีพื้นหลังได้ */
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid #ffffff; /* เพิ่มกรอบถ้าต้องการ */
+  padding: 20px; /* เพิ่มพื้นที่ภายใน */
+  border-radius: 10px; /* ทำมุมให้มน */
+  background-color: white; /* สีพื้นหลังของ container */
+}
+
+img {
+  max-width: 100%; /* ปรับขนาดภาพให้ไม่เกินความกว้างของ container */
+}
